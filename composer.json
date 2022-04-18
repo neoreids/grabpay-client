@@ -1,0 +1,20 @@
+{
+    "name": "neoreids/grabpay",
+    "description": "Grabpay Library",
+    "type": "library",
+    "require": {
+        "phpunit/phpunit": "^9.5",
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "authors": [
+        {
+            "name": "neoreids",
+            "email": "neo.reids@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "neoreids\\GrabPay\\": "src/"
+        }
+    }
+}
